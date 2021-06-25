@@ -1,0 +1,42 @@
+/** LMD Kawal Corona **/
+.kc-wrapper {
+	text-align: center;
+}
+.kc-title h3 {
+	font-size: 1em;
+	font-weight: 600;
+}
+.kc-title p {
+	font-size: .7em;
+}
+
+.kc-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.kc-col {
+	width: calc(50% - 10px);
+	margin: 0 5px 10px 5px;
+	padding: 10px;
+	background: #ebebeb;
+	border-radius: 8px;
+}
+
+.kc-positif h4 {
+	color: blue;
+}
+.kc-dirawat h4 {
+	color: orange;
+}
+.kc-sembuh h4 {
+	color: green;
+}
+.kc-meninggal h4 {
+	color: red;
+}
+
+.kc-credits {
+	text-align: right;
+	font-size: .8em;
+}
